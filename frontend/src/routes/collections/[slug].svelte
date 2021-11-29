@@ -24,7 +24,7 @@
 <div class="row">
 	{#each category.products as product}
 		<div class="col">
-			<ProductThumbnail product={product}/>
+			<ProductThumbnail product={product} category={category.slug}/>
 		</div>
 	{:else}
 		<p>asd</p>
