@@ -2,3 +2,8 @@
   color: dodgerblue;
   text-decoration: none;
 }
+
+.title {
+  font-weight: bold;
+  text-decoration: underline;
+}
